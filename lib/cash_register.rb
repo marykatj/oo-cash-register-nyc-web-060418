@@ -1,4 +1,4 @@
-class Cash Register
+class CashRegister
 
   attr_reader :discount, :price, :title
 
