@@ -3,12 +3,10 @@ class CashRegister
   attr_reader :discount, :price, :title
   attr_writer :total
 
-  @@items = []
-
   def initialize(discount=0)
     @total = 0
     @discount = discount
-    @@items << self
+    @items = []
   end
 
   def total
