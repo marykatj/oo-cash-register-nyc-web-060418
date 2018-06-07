@@ -5,6 +5,9 @@ class Cash Register
     @discount = discount
   end
 
+  def total
+    @total
+  end
 
 
 end
